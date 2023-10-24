@@ -52,15 +52,17 @@ a {
 
 /* Header */
 .fixed-header {
-    position: relative;
+    padding-top: 26px;
     background-color: #e6f0ff;
-    height: 100vh;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
 }
-
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -93,10 +95,15 @@ a {
     margin-left: 18px;
 }
 
-/* hero */
+/* hero wrap */
+.hero-wrap {
+    position: relative;
+    background-color: #e6f0ff;
+    height: 100vh;
+}
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
     display: flex;
 }
 
@@ -167,16 +174,15 @@ a {
     margin-top: 70px;
 }
 
-.client .img a{
+.client .img a {
     display: flex;
     align-items: center;
     padding: 0 42px;
     height: 90px;
     border-radius: 12px;
-    
 }
 
-.client .img a:hover{
+.client .img a:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 /* Guides */
