@@ -166,6 +166,19 @@ a {
     justify-content: space-between;
     margin-top: 70px;
 }
+
+.client .img a{
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    border-radius: 12px;
+    
+}
+
+.client .img a:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 /* Guides */
 .guides {
     position: relative;
