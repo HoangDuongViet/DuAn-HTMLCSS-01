@@ -6,8 +6,13 @@
     --primary-color: #0f1b4c;
 }
 
+html, body{
+    scroll-behavior: smooth; /* Cuộn mượt mà */
+}
+
 html {
     font-size: 62.5%; /* mặc định 16px*/
+
 }
 
 body {
